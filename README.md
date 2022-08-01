@@ -14,6 +14,14 @@ The models used in the work are the following:
 - https://huggingface.co/kevinr/Confidence-bert-base-uncased-Loss_CrossEntropy-Bin_01234-5
 - https://huggingface.co/kevinr/Confidence-bert-base-uncased-Loss_CrossEntropy-Bin_Nobin
 
+each model can be used as follows (example provided for the last model):
+
+```
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+tokenizer = AutoTokenizer.from_pretrained("kevinr/Confidence-bert-base-uncased-Loss_MSE-Bin_Nobin")
+model = AutoModelForSequenceClassification.from_pretrained("kevinr/Confidence-bert-base-uncased-Loss_MSE-Bin_Nobin")
+```
+
 # Data
  to be added.
 
