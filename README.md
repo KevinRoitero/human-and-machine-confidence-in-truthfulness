@@ -16,7 +16,7 @@ The models used in the work are the following:
 
 each model can be used as follows (example provided for the last model):
 
-```
+```python
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("kevinr/Confidence-bert-base-uncased-Loss_MSE-Bin_Nobin")
 model = AutoModelForSequenceClassification.from_pretrained("kevinr/Confidence-bert-base-uncased-Loss_MSE-Bin_Nobin")
